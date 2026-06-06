@@ -1,3 +1,8 @@
+## 开源协议
+
+本仓库所有内容采用 [知识共享署名-相同方式共享 4.0 国际许可协议（CC BY-SA 4.0）](
+https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。
+
 # 简介
 
 此项目的目标是建立一个大规模、高质量的AI Syetem Prompt库。
