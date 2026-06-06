@@ -10,7 +10,7 @@ https://gitee.com/YingHe01/agent-system-prompt.git
 
 ### 当前状态
 
-`Code`板块构建中；
+`Coder`板块构建中；
 
 `Roll-and-Play`、`Writer`、`Translator`、`Reseacher`、`Tutor`板块规划中。
 
@@ -20,7 +20,7 @@ https://gitee.com/YingHe01/agent-system-prompt.git
 
 ```
 agent-system-prompt/
-├── Code/                   编程
+├── Coder/                  编程
 ├── Roll-and-Play/          *扮演
 ├── Writer/                 *写作
 ├── Translator/             *翻译
@@ -54,7 +54,7 @@ _注：`*`表示非必须_
 
 # 板块说明
 
-## Code - 编程助理
+## Coder - 编程助理
 
 **适用于 VS Code**
 
@@ -68,6 +68,18 @@ _注：`*`表示非必须_
 - - 插件 
 - 编译与运行环境
 - 额外的自备内容 _非必须_
+
+# 其他说明
+
+### Pull Requests
+
+如果您认为您的Agent System Prompt足够优秀，欢迎以Pull Requests的形式作出贡献！
+
+`MiklyWay3901` 将在每周三和周日集中审批。
+
+### 关于维护者
+
+此项目的维护者`MiklyWay3901`是一名高中生，随时可能因为 考试/OI竞赛 暂停维护此项目一段时间，还清谅解。
 
 # 支持我的工作
 
