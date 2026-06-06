@@ -17,7 +17,6 @@ tools:
   - edit
   - todo
   - vscode
-  - new
   - web
   - agent
   - browser
