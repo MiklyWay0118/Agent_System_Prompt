@@ -68,3 +68,13 @@ _注：`*`表示非必须_
 - - 插件 
 - 编译与运行环境
 - 额外的自备内容 _非必须_
+
+# 支持我的工作
+
+你可以在`爱发电`中赞助我，也可以在`知乎`或`bilibili`中给更新说明点一个免费的赞。
+
+爱发电 https://www.ifdian.net/a/miklyway
+
+知乎 https://www.zhihu.com/people/miklyway
+
+bilibili https://space.bilibili.com/1022519074
