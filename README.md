@@ -5,13 +5,12 @@ https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。
 
 # 简介
 
-此项目的目标是建立一个大规模、高质量的AI Syetem Prompt库。
+此项目的目标是建立一个大规模、高质量的AI System Prompt库。
 
 ### 项目连接
 
-https://github.com/MiklyWay0118/Agent_System_Prompt.git 
-
-https://gitee.com/YingHe01/agent-system-prompt.git
+[Github](https://github.com/MiklyWay0118/Agent_System_Prompt.git)、
+[Gitee](https://gitee.com/YingHe01/agent-system-prompt.git)
 
 ### 当前状态
 
@@ -26,10 +25,10 @@ https://gitee.com/YingHe01/agent-system-prompt.git
 ```
 agent-system-prompt/
 ├── Coder/                  编程
-├── Roll-and-Play/          *扮演
+├── Roll-and-Play/          *角色扮演
 ├── Writer/                 *写作
 ├── Translator/             *翻译
-├── Reseacher/              *研究
+├── Reseacher/              *研究助手
 ├── Tutor/                  *学习
 ├── .../
 │
@@ -61,18 +60,26 @@ _注：`*`表示非必须_
 
 ## Coder - 编程助理
 
-**适用于 VS Code**
-
 #### `.agent.md` - 助理内容
-- **` Frontmatter ` 段：** YAML 格式，包括 ` name, description, argument-hint, tools, disable-model-invocation, user-invocable，agents `。
+- **` Frontmatter ` 段** _适用于VS Code_ **：**  YAML 格式，包括 ` name, description, argument-hint, tools, disable-model-invocation, user-invocable，agents `。
 - **`Agent Operating Manual`段：** Markdown 格式，内容为精确的、可执行的命令和流程。
 
-#### `env.md` - 环境需求
+#### `.env.md` - 环境需求
 - Visual Studio Code
 - - 版本
 - - 插件 
 - 编译与运行环境
 - 额外的自备内容 _非必须_
+
+#### `.info.md` - 介绍
+- 使用方法
+- 构造时间
+- 更改记录
+
+#### `Agent_list.md`
+- 此版块的Agent概览
+- 特殊说明
+- 在命名中使用的缩写
 
 # 其他说明
 
@@ -80,18 +87,16 @@ _注：`*`表示非必须_
 
 如果您认为您的Agent System Prompt足够优秀，欢迎以Pull Requests的形式作出贡献！
 
-`MiklyWay3901` 将在每周三和周日集中审批。
+Pull Requests必须遵循对应板块的结构要求（相见`板块说明`章节）。
+
+维护者 `MiklyWay` 通常将在每周三和周日集中审批。
 
 ### 关于维护者
 
-此项目的维护者`MiklyWay3901`是一名高中生，随时可能因为 考试/OI竞赛 暂停维护此项目一段时间，还清谅解。
+此项目的维护者 `MiklyWay` 是一名高中生，随时可能因为 考试/OI竞赛 暂停维护此项目一段时间，还请谅解。
 
 # 支持我的工作
 
-你可以在`爱发电`中赞助我，也可以在`知乎`或`bilibili`中给更新说明点一个免费的赞。
-
-爱发电 https://www.ifdian.net/a/miklyway
-
-知乎 https://www.zhihu.com/people/miklyway
-
-bilibili https://space.bilibili.com/1022519074
+你可以在 [爱发电](https://www.ifdian.net/a/miklyway) 中赞助我，
+也可以在 [知乎](https://www.zhihu.com/people/miklyway)
+或 [bilibili](https://space.bilibili.com/1022519074) 中给更新说明点一个免费的赞。
