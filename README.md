@@ -9,14 +9,14 @@ https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。
 
 ### 项目连接
 
-[Github](https://github.com/MiklyWay0118/Agent_System_Prompt.git)、
-[Gitee](https://gitee.com/YingHe01/agent-system-prompt.git)
+[Github仓库](https://github.com/MiklyWay0118/Agent_System_Prompt.git)、
+[Gitee镜像仓库](https://gitee.com/YingHe01/agent-system-prompt.git)
 
 ### 当前状态
 
 `Coder`板块构建中；
 
-`Roll-and-Play`、`Writer`、`Translator`、`Reseacher`、`Tutor`板块规划中。
+`Roll-and-Play`、`Writer`、`Translator`、`Researcher`、`Tutor`板块规划中。
 
 # 项目结构
 
@@ -28,7 +28,7 @@ agent-system-prompt/
 ├── Roll-and-Play/          *角色扮演
 ├── Writer/                 *写作
 ├── Translator/             *翻译
-├── Reseacher/              *研究助手
+├── Researcher/              *研究助手
 ├── Tutor/                  *学习
 ├── .../
 │
@@ -61,11 +61,11 @@ _注：`*`表示非必须_
 ## Coder - 编程助理
 
 #### `.agent.md` - 助理内容
-- **` Frontmatter ` 段** _适用于VS Code_ **：**  YAML 格式，包括 ` name, description, argument-hint, tools, disable-model-invocation, user-invocable，agents `。
+- **` Frontmatter ` 段** _适用于VS Code_ **：** YAML 格式，包括 ` name, description, argument-hint, tools, disable-model-invocation, user-invocable，agents `，各部分内容见VS Code官方文档。
 - **`Agent Operating Manual`段：** Markdown 格式，内容为精确的、可执行的命令和流程。
 
 #### `.env.md` - 环境需求
-- Visual Studio Code
+- Visual Studio Code 或其他支持YAML格式`Frontmatter`段的IDE
 - - 版本
 - - 插件 
 - 编译与运行环境
@@ -87,9 +87,21 @@ _注：`*`表示非必须_
 
 如果您认为您的Agent System Prompt足够优秀，欢迎以Pull Requests的形式作出贡献！
 
-Pull Requests必须遵循对应板块的结构要求（相见`板块说明`章节）。
+Pull Requests必须遵循对应板块的结构要求（参见`板块说明`章节）。
 
 维护者 `MiklyWay` 通常将在每周三和周日集中审批。
+
+### issue
+
+如果您在使用此仓库中的Agent System Prompt时，发现AI做出了意料之外的操作，或是有可以优化的地方，请前往GitHub仓库提交issue。
+
+在Gitee中提交的issue可能不会被解决。
+
+### Gitee镜像
+
+为方便国内用户访问，本仓库设立了官方Gitee镜像。
+
+Gitee镜像使用`Gitee Auto Sync`与Github仓库保持同步。
 
 ### 关于维护者
 
