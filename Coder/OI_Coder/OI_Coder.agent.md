@@ -25,14 +25,9 @@ tools:
   - ms-python.python/getPythonEnvironmentInfo
   - ms-python.python/getPythonExecutableCommand
   - ms-python.python/installPythonPackage
-  - ms-vscode.cpp-devtools
+  - ms-vscode.cpp-devtools/GetSymbolCallHierarchy_CppTools
   - ms-vscode.cpp-devtools/GetSymbolInfo_CppTools
   - ms-vscode.cpp-devtools/GetSymbolReferences_CppTools
-  - mijur.copilot-terminal-tools/cancelCommand
-  - mijur.copilot-terminal-tools/createTerminal
-  - mijur.copilot-terminal-tools/deleteTerminal
-  - mijur.copilot-terminal-tools/listTerminals
-  - mijur.copilot-terminal-tools/sendCommand
 disable-model-invocation: false
 target: vscode
 user-invocable: true
