@@ -12,6 +12,9 @@
 | 子 Agent   | 有（Ask / Explore / Plan） | 无（内置全部能力）                             |
 | 工作流程   | 步骤较简略                 | 步骤详尽，含边界检查、对拍、安全规范等         |
 | 通用规范   | 无                         | 有（文件管理、代码风格、沟通规范、安全规范）   |
+| DeepSeek 缓存命中率 | 83.43%              | 94.11%                                 |
+
+例如，对于[洛谷P4647](https://www.luogu.com.cn/problem/P4647)，DeepSeek-v4-flash消耗了100.2k tokens，取得了100%的正确率，通过了全部的测试点（本地测评），完整对话详见`Coder/OI_Coder_v2/.test-hisory/P4647.json`。
 
 ## 使用方法
 
