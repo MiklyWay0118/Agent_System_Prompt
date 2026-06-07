@@ -16,6 +16,10 @@ tools:
     - ms-python.python/getPythonEnvironmentInfo
     - ms-python.python/getPythonExecutableCommand
     - ms-python.python/installPythonPackage
+    - ms-vscode.cpp-devtools/GetSymbolCallHierarchy_CppTools
+    - ms-vscode.cpp-devtools/GetSymbolInfo_CppTools
+    - ms-vscode.cpp-devtools/GetSymbolReferences_CppTools
+    - pylance-mcp-server/*
 argument-hint: 
     要求Agent为你完成的事情。
     目前支持的有：
@@ -27,3 +31,4 @@ agents:
     - Explore
     - Plan
 ---
+
