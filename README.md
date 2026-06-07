@@ -45,6 +45,8 @@ _注：`*`表示暂无_
 ```
 [Type]/
 ├── [Name-1]/
+│   ├── [.test-history]/
+│   │   ├── [ABC.json]      测试记录
 │   ├── [Name-1].agent.md   助理内容
 │   ├── [Name-1].env.md     *环境需求
 │   └── [Name-1].info.md    *介绍
