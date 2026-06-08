@@ -21,9 +21,9 @@
 
 ### 配置说明
 
-1. **注册 Agent 文件**：确保 `.agent.md` 文件位于 VS Code 可识别的路径下（如项目根目录 `.github/prompts/` 或用户 prompts 目录）。
-2. **建议启用「绕过审批」**：在 VS Code 设置中搜索 `github.copilot.chat.autoEditMode` 或相关审批设置，启用后 Agent 可直接修改文件，减少交互确认步骤，提升竞赛调试效率。
-3. **Python 环境配置**：Agent 依赖 Python 环境运行数据生成与对拍脚本，需确保已配置有效的 Python 解释器。
+1. 确保已安装 [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)，使用GitHub登陆。
+2. 打开 Chat 聊天框，在下方的“设置智能体”中选择“创建新的自定义智能体”，将`./Coder/[NAME]/[NAME].agent.md`完全覆盖默认配置文件。
+3. 保存并关闭文件，在下方的“设置智能体”中选择`[NAME]`，选择合适的 AI 模型。
 
 ## 编译与运行环境
 
@@ -54,7 +54,7 @@
 
 - **DeepSeek API Key**：前往 [DeepSeek 官网](https://platform.deepseek.com/) 申请
 - 其他兼容 OpenAI API 格式的密钥亦可
-- 配置方式：在 VS Code 设置中配置 `github.copilot.chat.*` 相关项，或通过对应扩展的 API Key 设置界面录入
+- 配置方式：在 VS Code 设置中通过对应扩展的 API Key 设置界面录入
 
 ### 可选工具
 

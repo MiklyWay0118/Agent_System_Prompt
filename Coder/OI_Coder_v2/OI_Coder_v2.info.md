@@ -21,7 +21,11 @@
 
 ### 1. 在 VS Code 中使用
 
-确保已安装 [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) 以及必需的插件。在 Chat 输入框中输入 `@OI Coder` 即可调用。
+确保已安装 [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)，使用GitHub登陆。
+
+打开 Chat 聊天框，在下方的“设置智能体”中选择“创建新的自定义智能体”，将`./Coder/OI_Coder_v2/OI_Coder_v2.agent.md`，完全覆盖默认配置文件。
+
+保存并关闭文件，在下方的“设置智能体”中选择`OI Coder`，选择合适的 AI 模型。
 
 ### 2. 支持的任务类型
 
