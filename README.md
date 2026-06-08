@@ -111,6 +111,8 @@ Gitee镜像使用`Gitee Auto Sync`与Github仓库保持同步。
 
 此项目的维护者 `MiklyWay` 是一名高中生，随时可能因为 考试/OI竞赛 暂停维护此项目一段时间，还请谅解。
 
+你可以发送邮件至 `milkyway1886@foxmail.com` 联系我
+
 # 支持我的工作
 
 你可以在 [爱发电](https://www.ifdian.net/a/miklyway) 中赞助我，
