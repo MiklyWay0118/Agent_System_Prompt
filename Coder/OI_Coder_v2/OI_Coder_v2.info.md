@@ -4,17 +4,18 @@
 
 ## 与 v1（OI-Coder）的主要区别
 
-| 方面       | v1（OI-Coder）            | v2（OI Coder）                                 |
-| ---------- | -------------------------- | ---------------------------------------------- |
-| Agent 名称 | `NOI-Coder`                | `OI Coder`                                     |
-| 支持任务   | 6 类                       | 6 类（流程更细化）                             |
-| 工具集     | 基础工具                   | 增加 `pylance-mcp-server/*` 等 Python 分析工具 |
-| 子 Agent   | 有（Ask / Explore / Plan） | 无（内置全部能力）                             |
-| 工作流程   | 步骤较简略                 | 步骤详尽，含边界检查、对拍、安全规范等         |
-| 通用规范   | 无                         | 有（文件管理、代码风格、沟通规范、安全规范）   |
-| DeepSeek 缓存命中率 | 83.43%              | 94.11%                                 |
+| 方面                | v1（OI-Coder）             | v2（OI Coder）                                 |
+| ------------------- | -------------------------- | ---------------------------------------------- |
+| Agent 名称          | `NOI-Coder`                | `OI Coder`                                     |
+| 支持任务            | 6 类                       | 6 类（流程更细化）                             |
+| 工具集              | 基础工具                   | 增加 `pylance-mcp-server/*` 等 Python 分析工具 |
+| 子 Agent            | 有（Ask / Explore / Plan） | 无（内置全部能力）                             |
+| 工作流程            | 步骤较简略                 | 步骤详尽，含边界检查、对拍、安全规范等         |
+| 通用规范            | 无                         | 有（文件管理、代码风格、沟通规范、安全规范）   |
+| DeepSeek 缓存命中率 | 83.43%                     | 94.11%                                         |
 
-例如，对于[洛谷P4647](https://www.luogu.com.cn/problem/P4647)，DeepSeek-v4-flash消耗了100.2k tokens，取得了100%的正确率，通过了全部的测试点（本地测评）。
+例如，对于[洛谷P4647](https://www.luogu.com.cn/problem/P4647)，DeepSeek-v4-flash消耗了$100.2k$ tokens，通过了全部的测试点（本地测评）。
+对于[T756153](https://www.luogu.com.cn/problem/T756153)，DeepSeek-v4-flash消耗了$914.9k$ tokens，通过了全部的测试点。
 
 ## 使用方法
 
@@ -43,10 +44,11 @@
 ### 4. 环境要求
 
 - **VS Code**：1.110+（推荐 1.117+，避开 1.119）
-- **GCC/G++**：8.0.0+（推荐 9.3.0+）
+    - 若使用`DeepSeek V4 for Copilot Chat`插件，推荐开启`Stabilize Tool List`设置以提高缓存命中率。
+- **GCC/G++**：9.3.0+
 - **Python**：3.5+（推荐 3.9+）
-- **必需插件**：GitHub Copilot、Python、Pylance、C/C++
-- **推荐插件**：C/C++ DevTools、Terminal Tools
+- **必需插件**：GitHub Copilot
+- **推荐插件**：C/C++ DevTools、Terminal Tools、Python、Pylance
 - **AI API Key**：需自行准备并配置
 
 详见 [`OI_Coder_v2.env.md`](./OI_Coder_v2.env.md)。
