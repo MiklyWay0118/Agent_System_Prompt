@@ -1,6 +1,8 @@
 # OI_Coder_v2
 
-专为算法竞赛设计的 AI 智能体，聚焦 C++ 竞赛代码的编写、调试、优化与验证。v2 版本在 v1 基础上重构了工作流程，细化了各任务类型的执行步骤，并引入了更完善的通用规范。
+专为算法竞赛设计的 AI 智能体，聚焦 C++ 竞赛代码的编写、调试、优化与验证。
+
+v2 版本在 v1 基础上重构了工作流程，细化了各任务类型的执行步骤，并引入了更完善的通用规范。
 
 ## 与 v1（OI-Coder）的主要区别
 
@@ -14,18 +16,18 @@
 | 通用规范            | 无                         | 有（文件管理、代码风格、沟通规范、安全规范）   |
 | DeepSeek 缓存命中率 | 83.43%                     | 94.11%                                         |
 
-例如，对于[洛谷P4647](https://www.luogu.com.cn/problem/P4647)，DeepSeek-v4-flash消耗了$100.2k$ tokens，通过了全部的测试点（本地测评）。
-对于[T756153](https://www.luogu.com.cn/problem/T756153)，DeepSeek-v4-flash消耗了$914.9k$ tokens，通过了全部的测试点。
+例如，对于[洛谷P4647](https://www.luogu.com.cn/problem/P4647)，DeepSeek-v4-flash 消耗了$100.2k$ tokens，通过了全部的测试点（本地测评）。
+对于[T756153](https://www.luogu.com.cn/problem/T756153)，DeepSeek-v4-flash 消耗了$914.9k$ tokens，通过了全部的测试点。
 
 ## 使用方法
 
 ### 1. 在 VS Code 中使用
 
-确保已安装 [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)，使用GitHub登陆。
+确保已安装 [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)，使用GitHub登录。
 
-打开 Chat 聊天框，在下方的“设置智能体”中选择“创建新的自定义智能体”，将`./Coder/OI_Coder_v2/OI_Coder_v2.agent.md`，完全覆盖默认配置文件。
+打开 Chat 聊天框，在下方的“设置智能体”中选择“创建新的自定义智能体”，将 `./Coder/OI_Coder_v2/OI_Coder_v2.agent.md` 的内容完全覆盖默认配置文件。
 
-保存并关闭文件，在下方的“设置智能体”中选择`OI Coder`，选择合适的 AI 模型。
+保存并关闭文件，在下方的“设置智能体”中选择 `OI Coder`，选择合适的 AI 模型。
 
 ### 2. 支持的任务类型
 
@@ -48,7 +50,7 @@
 ### 4. 环境要求
 
 - **VS Code**：1.110+（推荐 1.117+，避开 1.119）
-    - 若使用`DeepSeek V4 for Copilot Chat`插件，推荐开启`Stabilize Tool List`设置以提高缓存命中率。
+    - 若使用 `DeepSeek V4 for Copilot Chat` 插件，推荐开启 `Stabilize Tool List` 设置以提高缓存命中率。
 - **GCC/G++**：9.3.0+
 - **Python**：3.5+（推荐 3.9+）
 - **必需插件**：GitHub Copilot
