@@ -89,19 +89,13 @@ _注：`*`表示非必须_
 
 # 其他说明
 
-### Pull Requests
+### 做出贡献
 
 如果您认为您的 Agent System Prompt 足够优秀，欢迎以 Pull Requests 的形式作出贡献！
 
-Pull Requests 必须遵循对应板块的结构要求（参见`板块说明`章节）。
-
-维护者 `MiklyWay` 通常将在每周三和周日集中审批。
-
-### issue
-
 如果您在使用此仓库中的 Agent System Prompt 时，发现 AI 做出了意料之外的操作，或是有可以优化的地方，请前往 GitHub 仓库提交 issue。
 
-在 Gitee 中提交的 issue 可能不会被解决。
+具体内容参见 [贡献指南](./CONTRIBUTING.md)
 
 ### Gitee镜像
 
