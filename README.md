@@ -20,7 +20,9 @@ https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。
 
 `Coder` 板块构建中；
 
-`Roll-and-Play`、`Writer`、`Translator`、`Researcher`、`Tutor` 板块规划中。
+`Roll-and-Play`、`Writer` 板块测试中；
+
+`Translator`、`Researcher`、`Tutor` 板块规划中。
 
 # 项目结构
 
@@ -29,11 +31,11 @@ https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。
 ```
 agent-system-prompt/
 ├── Coder/                  编程
-├── Roll-and-Play/          *角色扮演
+├── Roll-and-Play/          角色扮演
 ├── Writer/                 *写作
-├── Translator/             *翻译
+├── Translator/             翻译
 ├── Researcher/             *研究助手
-├── Tutor/                  *学习
+├── Tutor/                  学习
 ├── .../
 │
 └── README.md

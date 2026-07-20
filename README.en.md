@@ -1,5 +1,7 @@
 [**中文版**](./README.md) | **English**
 
+> **Note:** The English version of this README may not be updated in a timely manner. Please refer to the [Chinese version](./README.md) for the most current information.
+
 ---
 
 ## Open Source License
@@ -19,7 +21,9 @@ The goal of this project is to build a large-scale, high-quality library of AI S
 
 `Coder` section is under construction;
 
-`Roll-and-Play`, `Writer`, `Translator`, `Researcher`, `Tutor` sections are planned.
+`Roll-and-Play`, `Writer` sections are being tested;
+
+`Translator`, `Researcher`, `Tutor` sections are planned.
 
 # Project Structure
 
@@ -28,11 +32,11 @@ The goal of this project is to build a large-scale, high-quality library of AI S
 ```
 agent-system-prompt/
 ├── Coder/                  Programming
-├── Roll-and-Play/          *Role-playing
+├── Roll-and-Play/          Role-playing
 ├── Writer/                 *Writing
-├── Translator/             *Translation
+├── Translator/             Translation
 ├── Researcher/             *Research Assistant
-├── Tutor/                  *Tutoring
+├── Tutor/                  Tutoring
 ├── .../
 │
 └── README.md
